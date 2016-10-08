@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background1" >
+
+    <RelativeLayout
+        android:id="@+id/setAddDeleteViews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_wallpaper_button"
+            android:onClick="onClick"
+            android:paddingTop="10dp" />
+
+        <ImageView
+            android:id="@+id/plusImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button1"
+            android:contentDescription="@string/plus_image_description"
+            android:paddingTop="10dp"
+            android:src="@drawable/add_image_icon" />
+
+        <ImageView
+            android:id="@+id/deleteImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/plusImageView"
+            android:contentDescription="@string/delete_image_description"
+            android:paddingTop="10dp"
+            android:src="@drawable/delete_bin"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/cropImageRelativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" >
+
+        <RelativeLayout
+            android:id="@+id/cropImageRelLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true" >
+
+            <ImageView
+                android:id="@+id/cropCurrentImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/crop_current_image_description"
+                android:scaleType="fitCenter"
+                android:src="@drawable/default_wallpaper"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/cropRectangle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/crop_current_image_description"
+            android:src="@drawable/crop_rectangle"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/cropLeftTopButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/crop_current_image_description"
+            android:scaleType="center"
+            android:src="@drawable/crop_button_big"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/cropLeftBottomButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/crop_current_image_description"
+            android:scaleType="center"
+            android:src="@drawable/crop_button_big"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/cropRightTopButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/crop_current_image_description"
+            android:scaleType="center"
+            android:src="@drawable/crop_button_big"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/cropRightBottomButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/crop_current_image_description"
+            android:scaleType="center"
+            android:src="@drawable/crop_button_big"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/adsScrollViewRadioGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cropImageRelativeLayout"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/radio_image_size_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:visibility="invisible" >
+
+            <RadioButton
+                android:id="@+id/radio_cover_full_screen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/full_screen"
+                android:textColor="@color/White" />
+
+            <RadioButton
+                android:id="@+id/radio_best_fit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/best_fit"
+                android:textColor="@color/White" />
+
+            <RadioButton
+                android:id="@+id/radio_crop_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/crop_image"
+                android:textColor="@color/White"
+                 />
+        </RadioGroup>
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/linearLayoutInsideHsv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" />
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-4531130906794046/8015440616" />
+
+    <!--
+         <com.google.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-4531130906794046/8015440616"
+        ads:refreshInterval="60" />
+    -->
+
+</RelativeLayout>

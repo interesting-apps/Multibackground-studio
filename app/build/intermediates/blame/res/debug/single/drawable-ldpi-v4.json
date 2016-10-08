@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "/home/pakkun/android_studio_workspace/multibackground-studio/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/background1.png",
+        "source": "/home/pakkun/android_studio_workspace/multibackground-studio/app/src/main/res/drawable-ldpi/background1.png"
+    },
+    {
+        "merged": "/home/pakkun/android_studio_workspace/multibackground-studio/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_launcher.png",
+        "source": "/home/pakkun/android_studio_workspace/multibackground-studio/app/src/main/res/drawable-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/pakkun/android_studio_workspace/multibackground-studio/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/add_image_icon.png",
+        "source": "/home/pakkun/android_studio_workspace/multibackground-studio/app/src/main/res/drawable-ldpi/add_image_icon.png"
+    },
+    {
+        "merged": "/home/pakkun/android_studio_workspace/multibackground-studio/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/set_wallpaper_button.png",
+        "source": "/home/pakkun/android_studio_workspace/multibackground-studio/app/src/main/res/drawable-ldpi/set_wallpaper_button.png"
+    },
+    {
+        "merged": "/home/pakkun/android_studio_workspace/multibackground-studio/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/multibackground_icon.png",
+        "source": "/home/pakkun/android_studio_workspace/multibackground-studio/app/src/main/res/drawable-ldpi/multibackground_icon.png"
+    },
+    {
+        "merged": "/home/pakkun/android_studio_workspace/multibackground-studio/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/set_wallpaper_button_pressed.png",
+        "source": "/home/pakkun/android_studio_workspace/multibackground-studio/app/src/main/res/drawable-ldpi/set_wallpaper_button_pressed.png"
+    },
+    {
+        "merged": "/home/pakkun/android_studio_workspace/multibackground-studio/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/border.png",
+        "source": "/home/pakkun/android_studio_workspace/multibackground-studio/app/src/main/res/drawable-ldpi/border.png"
+    },
+    {
+        "merged": "/home/pakkun/android_studio_workspace/multibackground-studio/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/crop_rectangle.png",
+        "source": "/home/pakkun/android_studio_workspace/multibackground-studio/app/src/main/res/drawable-ldpi/crop_rectangle.png"
+    },
+    {
+        "merged": "/home/pakkun/android_studio_workspace/multibackground-studio/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/open_delete_bin.png",
+        "source": "/home/pakkun/android_studio_workspace/multibackground-studio/app/src/main/res/drawable-ldpi/open_delete_bin.png"
+    },
+    {
+        "merged": "/home/pakkun/android_studio_workspace/multibackground-studio/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/image_not_found.png",
+        "source": "/home/pakkun/android_studio_workspace/multibackground-studio/app/src/main/res/drawable-ldpi/image_not_found.png"
+    },
+    {
+        "merged": "/home/pakkun/android_studio_workspace/multibackground-studio/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/delete_bin.png",
+        "source": "/home/pakkun/android_studio_workspace/multibackground-studio/app/src/main/res/drawable-ldpi/delete_bin.png"
+    },
+    {
+        "merged": "/home/pakkun/android_studio_workspace/multibackground-studio/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/crop_button_big.png",
+        "source": "/home/pakkun/android_studio_workspace/multibackground-studio/app/src/main/res/drawable-ldpi/crop_button_big.png"
+    },
+    {
+        "merged": "/home/pakkun/android_studio_workspace/multibackground-studio/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/default_wallpaper.png",
+        "source": "/home/pakkun/android_studio_workspace/multibackground-studio/app/src/main/res/drawable-ldpi/default_wallpaper.png"
+    }
+]

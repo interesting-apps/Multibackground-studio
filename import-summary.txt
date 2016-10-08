@@ -1,0 +1,83 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* Motion event.txt
+* MultiBackground.apk
+* MultiBackground_version5.apk
+* find velocity.txt
+* ic_launcher-web.png
+* images/
+* images/crop_image_rectangle.png
+* images/default_background.jpg
+* images/delete_bin.png
+* images/delete_bin_gimp_file.xcf
+* images/green_circle_plus_image.jpg
+* images/image_not_found.jpg
+* images/open_delete_bin.png
+* images/open_delete_bin_gimp_file.xcf
+* images/small_green_circle_plus_image.png
+* multibackground.keystore
+* older_apks/
+* older_apks/MultiBackground_v01.apk
+* older_apks/MultiBackground_v03.apk
+* older_apks/MultiBackground_v04.apk
+* older_apks/MultiBackground_v06.apk
+* older_apks/MultiBackground_v07.apk
+* older_apks/MultiBackground_v08.apk
+* older_apks/MultiBackground_v09.apk
+* other/
+* other/Crop Rectangle backup.txt
+* other/app_description.txt
+* other/main.xml
+* other/main_horizontal_operations.xml
+* other/main_linear_layout.xml
+* other/notes.txt
+* other/notes.txt~
+* other/release_notes.txt
+* other/sql statements.txt~
+* other/sql_statements.txt
+* proguard-project.txt
+* project.properties~
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

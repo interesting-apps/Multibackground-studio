@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/pakkun/android_studio_workspace/multibackground-studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/home/pakkun/android_studio_workspace/multibackground-studio/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/pakkun/android_studio_workspace/multibackground-studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_action_search.png",
+        "source": "/home/pakkun/android_studio_workspace/multibackground-studio/app/src/main/res/drawable-hdpi/ic_action_search.png"
+    },
+    {
+        "merged": "/home/pakkun/android_studio_workspace/multibackground-studio/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/multibackground_icon.png",
+        "source": "/home/pakkun/android_studio_workspace/multibackground-studio/app/src/main/res/drawable-hdpi/multibackground_icon.png"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/pakkun/android_studio_workspace/multibackground-studio/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/home/pakkun/android_studio_workspace/multibackground-studio/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/home/pakkun/android_studio_workspace/multibackground-studio/app/build/intermediates/res/merged/debug/layout/rate_app_dialog.xml",
+        "source": "/home/pakkun/android_studio_workspace/multibackground-studio/app/src/main/res/layout/rate_app_dialog.xml"
+    }
+]
